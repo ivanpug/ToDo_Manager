@@ -21,7 +21,7 @@ def initialize():
     db.create_tables([ToDo], safe=True)
 
 
-def view_entries(index, entries, single_entry, search_query=None):
+def view_entries(index, entries, single_entry):
     """"View to-do list"""
     index = index % len(entries)  
     if single_entry: 
@@ -31,10 +31,6 @@ def view_entries(index, entries, single_entry, search_query=None):
         print('\nMY TO-DO LIST')
         print('=' * 40)
     prev_timestamp = None
-
-    entries = ToDo.select().order_by(ToDo.timestamp.desc())
-    if search_query:
-        entries = entries.where(ToDo.task.contains(search_query))
 
     for ind, entry in enumerate(entries):
         timestamp = entry.timestamp.strftime('%d/%B/%Y')
@@ -56,11 +52,6 @@ def view_entries(index, entries, single_entry, search_query=None):
         print('')
 
     return entries
-
-
-def search_entries(index, entries):
-    """Search entries"""
-    view_entries(input('Search: '))
 
 
 def add_entry(index, entries):
@@ -140,8 +131,7 @@ def menu_loop():
 
 main_menu = OrderedDict([
     ('a', add_entry),
-    ('m', modify_entry),
-    ('s', search_entries)
+    ('m', modify_entry)
 ])
 
 sub_menu = OrderedDict([
