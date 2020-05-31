@@ -1,0 +1,5 @@
+# ignore ToDo database file
+*.db
+
+# ignore vscode settings
+.vscode/

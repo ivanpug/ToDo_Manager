@@ -119,7 +119,7 @@ def menu_loop():
         if choice in main_menu:
             try:
                 main_menu[choice](index, entries)
-            except ZeroDivisionError:
+            except Exception:
                 continue
             entries = ToDo.select().order_by(ToDo.timestamp.desc())
 
