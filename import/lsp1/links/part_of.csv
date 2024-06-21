@@ -1,0 +1,54 @@
+source;target;weight;category;final_state
+CVP;SZ;5;part_of;NA
+Diesel;SZ;5;part_of;NA
+Main tracks;SZ;5;part_of;NA
+Switch 501;SZ;5;part_of;NA
+SNEV;SZ;5;part_of;NA
+SVN;SZ;5;part_of;NA
+Transformer;SZ;5;part_of;NA
+Divaca station;SZ;5;part_of;NA
+Sezana station;SZ;5;part_of;NA
+Tanker Terminal;PET;5;part_of;NA
+Rail tanker terminal;PET;5;part_of;NA
+Car tanker terminal;PET;5;part_of;NA
+Storage tanks;PET;5;part_of;NA
+Fuel pumps;PET;5;part_of;NA
+Ops. Centre;PET;5;part_of;NA
+Power substations;PET;5;part_of;NA
+FireFight. Pumps;PET;5;part_of;NA
+TARO;LUK;5;part_of;NA
+TARA;LUK;5;part_of;NA
+SM;LUK;5;part_of;NA
+PT;LUK;5;part_of;NA
+IT;LUK;5;part_of;NA
+ES;LUK;5;part_of;NA
+RNC Kozina;DARS;5;part_of;NA
+Tunnel Dekani;DARS;5;part_of;NA
+Tunnel Kastelec;DARS;5;part_of;NA
+Fernetici;DARS;5;part_of;NA
+TS System;TS;5;part_of;NA
+BS;TS;5;part_of;NA
+BON;TS;5;part_of;NA
+EN;TS;5;part_of;NA
+SI-Police;SI-POL;5;part_of;NA
+PCC;LUR;5;part_of;NA
+PCC DC;LUR;5;part_of;NA
+OM;LUR;5;part_of;NA
+BA;LUR;5;part_of;NA
+RI;LUR;5;part_of;NA
+RA;LUR;5;part_of;NA
+CIS;SDIS73;5;part_of;NA
+CTA-CODIS;SDIS73;5;part_of;NA
+V;SDIS73;5;part_of;NA
+ITFR;SDIS73;5;part_of;NA
+FT;SDIS73;5;part_of;NA
+WT;SDIS73;5;part_of;NA
+CCFR;SITAF;5;part_of;NA
+SFTRF road;SFTRF;5;part_of;NA
+SNCF rail;SNCF;5;part_of;NA
+CCIT;SITAF;5;part_of;NA
+VS;SITAF;5;part_of;NA
+TR;SITAF;5;part_of;NA
+EG;SITAF;5;part_of;NA
+ITIT;SITAF;5;part_of;NA
+Tunnels;SITAF;5;part_of;NA

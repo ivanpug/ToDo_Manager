@@ -1,0 +1,171 @@
+source;target;category;final_state;weight
+CVP;Diesel;Physical;Completely non operational;5
+CVP;Main tracks;Functional;Almost completely non operational;5
+CVP;SVN;Functional;Almost completely non operational;5
+CVP;Transformer;Physical;Completely non operational;4
+Diesel;Transformer;Logical;Diesel takes over;5
+Main tracks;CVP;Functional;Completely non operational;5
+Main tracks;Diesel;Functional;Completely non operational;5
+Main tracks;Switch 501;Shared;No access to the Petrol's tracks (passage).;5
+Main tracks;SNEV;Physical;Completely non operational;5
+Main tracks;SVN;Functional;Completely non operational;5
+Main tracks;Transformer;Physical;Completely non operational;5
+Switch 501;CVP;Functional;No access to the Petrol's tracks (passage).;5
+Switch 501;Diesel;Functional;No access to the Petrol's tracks (passage).;5
+Switch 501;Main tracks;Shared;No access to the Petrol's tracks (passage).;5
+Switch 501;SNEV;Functional;No access to the Petrol's tracks (passage).;5
+Switch 501;SVN;Functional;No access to the Petrol's tracks (passage).;5
+Switch 501;Transformer;Physical;No access to the Petrol's tracks (passage).;5
+SVN;CVP;Functional;Completely non operational;5
+SVN;Diesel;Physical;Completely non operational;5
+SVN;Transformer;Physical;Completely non operational;5
+Divaca station;Main tracks;Functional;No traffic possible to the destination station;3
+Main tracks;Divaca station;Functional;No traffic possible to the destination station;3
+Sezana station;Divaca station;Functional;No traffic possible to the destination station;3
+Divaca station;Sezana station;Functional;No traffic possible to the destination station;3
+Tanker Terminal;Storage tanks;Physical;TT operations stop - no place where to pump fuels.;5
+Tanker Terminal;FireFight. Pumps;Functional;TT should not operate.;5
+Rail tanker terminal;Fuel pumps;Physical;Operations stop.;5
+Rail tanker terminal;Ops. Centre;Functional;Operations stop.;5
+Rail tanker terminal;Power substations;Physical;Operations stop.;5
+Rail tanker terminal;FireFight. Pumps;Functional;TT should not operate.;5
+Car tanker terminal;Fuel pumps;Physical;Operations stop.;5
+Car tanker terminal;Ops. Centre;Functional;Operations stop.;5
+Car tanker terminal;Power substations;Physical;Operations stop.;5
+Car tanker terminal;FireFight. Pumps;Functional;TT should not operate.;5
+Storage tanks;Tanker Terminal;Physical;No new fuel, TIS to run out of fuel.;1
+Storage tanks;Fuel pumps;Physical;Operations stop.;5
+Storage tanks;Ops. Centre;Functional;Operations stop.;5
+Storage tanks;Power substations;Physical;Operations stop.;5
+Storage tanks;FireFight. Pumps;Functional;TT should not operate.;5
+Fuel pumps;Storage tanks;Physical;no reservs;5
+Fuel pumps;Ops. Centre;Physical;Operations stop.;5
+Fuel pumps;Power substations;Physical;Operations stop.;5
+Fuel pumps;FireFight. Pumps;Functional;TT should not operate.;5
+Ops. Centre;Power substations;Physical;Operations stop.;5
+Ops. Centre;FireFight. Pumps;Functional;TT should not operate.;5
+FireFight. Pumps;Ops. Centre;Functional;Pc incapacitated via OC;5
+Rail tanker terminal;Switch 501;Shared;Terminal can not deploy railways cars. One way dependency only.;5
+TARO;ES;Physical;TARO stopped;5
+TARO;IT;Cyber;TARO congestion;4
+TARO;TARA;Logical;TARO congestion;3
+TARO;PT;Physical;TARA stopped;3
+TARA;ES;Physical;TARA stopped;3
+TARA;IT;Cyber;TARA congestion;4
+TARA;PT;Physical;TARA stopped;3
+TARA;TARO;Logical;TARA congestion;3
+PT;ES;Physical;Port operations stopped;4
+PT;IT;Cyber;Port operations stopped or delayed;4
+PT;TARO;Logical;congestion on terminals, work delayed;3
+PT;TARA;Logical;congestion on terminals, work delayed;3
+PT;SM;Physical;Port operations stopped or delayed;3
+IT;ES;Physical;Loss of external power;5
+SM;PT;Physical;Port operations stopped or delayed;3
+SM;IT;Cyber;Port operations stopped or delayed;4
+Main tracks;TARA;Shared;No access to the main tracks from LUK;5
+TARA;Main tracks;Shared;No access to the LUK's tracks;5
+SM;Tanker Terminal;Shared;can not receive new tankers;1
+Tanker Terminal;SM;Shared;ships can not reach tanker terminal?;1
+PT;Tanker Terminal;Shared;minor reduction of LUK's port operations;2
+Tunnel Dekani;RNC Kozina;Physical;Almost complete function lost;5
+Tunnel Kastelec;RNC Kozina;Physical;Almost complete function lost;5
+RNC Kozina;Tunnel Dekani;Physical;Almost complete function lost;5
+Tunnel Kastelec;Tunnel Dekani;Physical;Almost complete function lost;5
+RNC Kozina;Tunnel Kastelec;Physical;Almost complete function lost;5
+Tunnel Dekani;Tunnel Kastelec;Physical;Almost complete function lost;5
+Fernetici;Tunnel Kastelec;Functional;Almost complete function lost;3
+Tunnel Kastelec;Fernetici;Functional;Almost complete function lost;3
+Tunnel Dekani;TARO;Logical;Tunnel works if TARO does not…;3
+TARO;Tunnel Dekani;Functional;NA;3
+Tunnel Dekani;Tanker Terminal;Logical;Tunnel works if Tenter Terminal does not…;3
+Tanker Terminal;Tunnel Dekani;Functional;NA;3
+BON;TS System;Cyber;No internet;5
+BS;BON;Cyber;No internet;5
+TS System;BON;Cyber;No internet;5
+BON;BS;Cyber;No internet;5
+TS System;EN;Physical;No power, no internet;5
+BON;EN;Physical;No power, no internet;5
+BS;EN;Physical;No power, no internet;5
+CVP;BON;Cyber;Consequences? (Note: CVP depends on BON, but not vice versa!);5
+Ops. Centre;BON;Cyber;Consequences? (Note: Ops.Centre depends on BON, but not vice versa!);5
+PCC DC;PCC;Logical;decreased safety and efficiency of navigation, increased port congestion;4
+OM;PCC;Logical;decreased safety and efficiency of navigation, increased port congestion;3
+BA;PCC;Logical;decreased safety and efficiency of navigation, increased port congestion;3
+RI;PCC;Logical;decreased safety and efficiency of navigation, increased port congestion;3
+RA;PCC;Logical;increased port congestion;3
+PCC;PCC DC;Cyber;decreased safety and efficiency of navigation, increased port congestion;4
+OM;PCC DC;Cyber;increased terminal congestion due to the increased time to leave/enter the terminal resulting in schedule disruptions, increased transit times;4
+BA;PCC DC;Cyber;increased terminal congestion due to the increased time to leave/enter the terminal resulting in schedule disruptions, increased transit times;4
+RI;PCC DC;Cyber;increased terminal congestion due to the increased time to leave/enter the terminal resulting in schedule disruptions, increased transit times;4
+RA;PCC DC;Cyber;increased terminal congestion due to the increased time to leave/enter the terminal resulting in schedule disruptions, increased transit times;4
+PCC;OM;Logical;If terminal is not operational, PCC will experience high traffic management workload (?);3
+PCC;BA;Logical;terminal is not operational, increased port congestion;3
+PCC;RI;Logical;terminal is not operational, increased port congestion;3
+PCC;RA;Logical;terminal is not operational, increased port congestion;3
+BA;OM;Logical;If terminal is not operational, other terminals will experience extra workload;3
+RI;OM;Logical;NA;3
+RA;OM;Logical;NA;3
+OM;BA;Logical;NA;3
+RI;BA;Logical;NA;3
+RA;BA;Logical;NA;3
+OM;RI;Logical;NA;3
+BA;RI;Logical;NA;3
+RA;RI;Logical;NA;3
+OM;RA;Logical;NA;3
+BA;RA;Logical;NA;3
+RI;RA;Logical;NA;3
+SM;PCC;Logical;Ships logically related between ports;2
+PCC;SM;Logical;Ships logically related between ports;2
+MDI;FST;Cyber;in case there are disruptions in communication channels, it would not be possible to coordinate activities;5
+IRO;FST;Logical;In the event of serious disruptions to rail traffic, passenger and freight traffic may be diverted to road traffic;2
+FST;MDI;Cyber;in case there are disruptions in communication channels, it would not be possible to coordinate activities;5
+IRO;MDI;Cyber;in case there are disruptions in communication channels, it would not be possible to coordinate activities;5
+FST;IRO;Logical;In the event of serious disruptions to rail traffic, passenger and freight traffic may be diverted to road traffic;2
+Sezana station;FST;Functional;in case there are disruptions in communication channels, it would not be possible to coordinate activities;5
+Sezana crossing;FST;Logical;In the event of serious disruptions to rail traffic, passenger and freight traffic can be diverted to road traffic, also congesting the Slovenian counterpart;2
+SI-Police;MDI;Cyber;in case there are disruptions in communication channels, it would not be possible to coordinate activities;5
+FST;Sezana station;Functional;in case there are disruptions in communication channels, it would not be possible to coordinate activities;5
+Sezana crossing;IRO;Logical;In the event of serious disruptions to road trafficon the italian side, it is possible to congeste the Slovenian counterpart;2
+IRO;Sezana crossing;Logical;In the event of serious disruptions to road traffic on the Slovenian side, it is possible to congeste the Italian counterpart;2
+MDI;SI-Police;Cyber;in case there are disruptions in communication channels, it would not be possible to coordinate activities;5
+PCC;SM;Logical;Congestions via rerouted ships to the alternative port;2
+SM;PCC;Logical;Congestions via rerouted ships to the alternative port;2
+CTA-CODIS;CIS;Functional;no alert, reinforcement impossible;5
+V;CIS;Physical;no alert, reinforcement impossible;5
+ITFR;CIS;Cyber;no alert, reinforcement impossible;5
+CIS;CTA-CODIS;Functional;Departmental coordination and command impossible;5
+V;CTA-CODIS;Physical;Departmental coordination and command impossible;5
+ITFR;CTA-CODIS;Cyber;Departmental coordination and command impossible;5
+ITFR;V;Cyber;Intervention Impossible;5
+FT;V;Physical;Intervention Impossible;3
+WT;V;Physical;Intervention Impossible;3
+V;ES (FR);Physical;Loss of operational performances;5
+CIS;FT;Physical;Loss of reserve;5
+CIS;WT;Physical;Loss of reserve;5
+CCIT;CCFR;Shared;Closure of the tunnel;5
+TR;CCFR;Physical;Closure of the tunnel;5
+ITIT;CCFR;Cyber;Closure of the tunnel;5
+CCFR;CCIT;Shared;Closure of the tunnel;5
+TR;CCIT;Physical;Closure of the tunnel;5
+ITIT;CCIT;Cyber;Closure of the tunnel;5
+TR;VS;Physical;"impossible to evacuate the fumes; Closure of the tunnel";5
+ITIT;VS;Cyber;"impossible to evacuate the fumes; Closure of the tunnel";5
+Tunnels;VS;Physical;"impossible to evacuate the fumes; Closure of the tunnel";5
+ITIT;TR;Cyber;"loss of local control and management functionality;Closure of the tunnel";5
+Tunnels;TR;Physical;"loss of local control and management functionality;Closure of the tunnel";5
+CCFR;EG;Shared;increased travel time or no rescue possible;5
+CCIT;EG;Shared;increased travel time or no rescue possible;5
+TR;EG;Physical;increased travel time or no rescue possible;5
+ITIT;EG;Cyber;increased travel time or no rescue possible;5
+CCFR;Tunnels;Shared;Closure of the tunnel;5
+CCIT;Tunnels;Shared;Closure of the tunnel;5
+VS;Tunnels;Physical;Closure of the tunnel;5
+TR;Tunnels;Physical;Closure of the tunnel;5
+EG;Tunnels;Physical;Closure of the tunnel;5
+ITIT;Tunnels;Cyber;Closure of the tunnel;5
+IRO;V;Functional;flow of road vehicles into Italy from the tunnel;5
+V;IRO;Functional;flow of road vehicles from Italy into the tunnel;5
+SFTRF road;V;Functional;flow of road vehicles into France from the tunnel;5
+V;SFTRF road;Functional;flow of road vehicles from France into the tunnel;5
+V;FST;Functional;flow of rail vehicles from Italy into the tunnel;5
+V;SNCF rail;Functional;flow of rail vehicles from France into the tunnel;5

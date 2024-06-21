@@ -1,0 +1,57 @@
+asset_id;country;name;description;coordinates;lsp
+1;SLO;CVP;Traffic management centre (Center vodenja prometa  - CVP) (including data and communications centre, etc.);"45,5545852868424; 13,765981092422164";1
+2;SLO;Diesel;Backup Diesel generator for elecrical power at CVP;"45,554685809968625; 13,76576663592154";1
+3;SLO;Main tracks;Main group of the railway tracks at Koper cargo station;"45,55417410257951; 13,769898638525595";1
+4;SLO;Switch 501;Railway switch 501 to acces the industrial tracks of Petrol's TIS site;"45,555516398563704; 13,763849769752726";1
+5;SLO;SNEV;Stable equipment for electrical drive supply at Koper cargo station (Stabilne naprave elekti?ne vleke - SNEV);"45,55279833770653; 13,778229144966241";1
+6;SLO;SVN;Entry/Exit signal safety devices at cargo station Koper (Uvozne/izvozne Signalno varnostne naprave - SVN);"45,553316529182496; 13,775434966000171";1
+7;SLO;Transformer;Transformer - Transformer station delivering electrical power for cargo station Koper;"45,55431707865803; 13,766766733350465";1
+8;SLO;Divaca station;Railway station Diva?a (hub);"45,681288572002956; 13,965584936357645";1
+9;SLO;Sezana station;Border railway station Sežana;"45,70386159725049; 13,863166981104216";1
+11;SLO;Tanker Terminal;"Tanker terminal with ""Pig"" type of pipeline";"45,559515495366355; 13,733768586465343";1
+12;SLO;Rail tanker terminal;Railway tanker car terminal;"45,556386098129124; 13,760484584025926";1
+13;SLO;Car tanker terminal;Car tanker terminal;"45,558035047057515; 13,762394316829166";1
+14;SLO;Storage tanks;Fuel storage tanks;"45,5567880104234; 13,765124805604177";1
+15;SLO;Fuel pumps;Liquid fuels pumping station with related pipelines;"45,556890339862996; 13,762887569528958";1
+16;SLO;Ops. Centre;Operations center at TIS;"45,55745752603999; 13,762824425946418";1
+17;SLO;Power substations;Electrical power suppy stations (from ELES power lines);"45,55729492894214; 13,761185284459371";1
+18;SLO;FireFight. Pumps;Firefighting pumping station;"45,558611478904915; 13,76373290113378";1
+19;SLO;TARO;TARO - Traffic arrangement - road traffic at critical points ;"45,55670782721658; 13,746905904135218";1
+20;SLO;TARA;TARA - Traffic arrangement - rail traffic / rail entrance;"45,55699841394227; 13,753239235606083";1
+21;SLO;SM;SM - Ship moorings;"45,55337228933737; 13,73295813990155";1
+22;SLO;PT;PT - Port terminals (container terminal, car and Ro-Ro terminal, liquid cargo terminal, etc);"45,55463577392218; 13,737216448224242";1
+23;SLO;ITA;IT - Information and communication technology, communication nodes;"45,54874938468339; 13,73854965060717";1
+24;SLO;ES;Electricity supply, electricity grid, internal electric transformer stations;"45,55293433441394; 13,751597093833055";1
+25;SLO;RNC Kozina;Regional control center at Kozina;"45,61357352968923; 13,943038869689216";1
+26;SLO;Tunnel Dekani;Tunnel Dekani with its operational control system;"45,55360833032512; 13,815079920359784";1
+27;SLO;Tunnel Kastelec;Tunnel Kastelec with its operational control system;"45,583889270695735; 13,885112351136277";1
+28;SLO;Fernetici;SLO-IT highway crossing point at Ferneti?i (Fernetti);"45,70131252428467; 13,83857558251999";1
+29;SLO;TS System;Telekom Slovenije Internet system;"46,05726401107874; 14,506816017613241";1
+30;SLO;BS;BS - Base station;"45,54381206602796; 13,74163703686991";1
+31;SLO;BON;BON - Backbone Optical Network;"45,54310557241749; 13,755352134658501";1
+32;SLO;EN;EN - Electrical power suppy stations (from ELES power lines);"45,54429896617487; 13,743970970022017";1
+33;SLO;SI-Police;Slovenian Police (Sežana location);"45,70484736095238; 13,862995651573467";1
+101;CRO;PCC;Port control centre;"45,324036275707; 14,438076571727445";1
+102;CRO;PCC DC;Port control centre, data center;"45,324036275707; 14,438076571727445";1
+103;CRO;OM;Omisalj basin, port terminal (liquid cargo terminal);"45,22068645230129; 14,532776071595393";1
+104;CRO;BA;Bakar basin, port terminals (dry bulk cargo terminal, Ro-Ro terminal);"45,30301254134706; 14,546789042018128";1
+105;CRO;RI;Rijeka basin, port terminals (container terminal Adriatic Gate, container terminal Zagreb Deep Sea, terminal for general cargo, grain terminal, passenger port terminal);"45,32052705971766; 14,454662890131333";1
+106;CRO;RA;Rasa basin, port terminal (terminal for general cargo, livestock and timber);"45,02417028145158; 14,05329828427025";1
+201;ITA;FST;Railway operator in charge of rail traffic management;"45.34558475999741; 7.161684910627902";1
+202;ITA;MDI;Italian railway police.;"45.34558475999741; 7.161684910627902";1
+204;ITA;IRO;Italian highway road operator;"45.34558475999741; 7.161684910627902";1
+301;FRA;CIS;CIS local response & reinforcement (Firefighting station);"45,19566030286071; 6,667100268252275";1
+302;FRA;CTA-CODIS;CTA-CODIS;"45,57739898367336; 5,956893507190788";1
+303;FRA;V;V - Vehicles (field, sky, …);"45,19566030286071; 6,667100268252275";1
+304;FRA;ITFR;IT - Information and communication technology, Telecom Network;"45,19566030286071; 6,667100268252275";1
+306;FRA;FT;FT - Fuel Tanks;"45,19566030286071; 6,667100268252275";1
+307;FRA;WT;WT - Water Tanks;"45,19566030286071; 6,667100268252275";1
+308;FRA;CCFR;CCFR - Control Center FR side;"45,19377777318338; 6,673694671226832";1
+309;FRA;SFTRF road;French highway operator and its road to the tunnel;"45.172703533239165; 6.674121750910959";1
+310;FRA;SNCF rail;French rail operator and its rail to the tunnel;"45.172703533239165; 6.674121750910959";1
+311;ITA;CCIT;CCIT - Control Center IT side;"45,08514294348844; 6,713287284134392";1
+312;ITA;VS;VS - Ventilation stations;"45,13983978978024; 6,687751931885161";1
+313;ITA;TR;TR - Technical rooms;"45,13983978978024; 6,687751931885161";1
+315;ITA;EG;EG - Entrance Gate (Road Access, Toll);"45,084664445070935; 6,712767112749439";1
+316;ITA;ITIT;IT - Information and communication technology, Telecom Network;"45,13983978978024; 6,687751931885161";1
+317;ITA;Tunnels;T - Tunnel (tube1 & 2);"45,13983978978024; 6,687751931885161";1

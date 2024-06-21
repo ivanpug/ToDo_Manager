@@ -1,0 +1,5 @@
+﻿source;target;weight
+FST;SZ;5
+SZ;FST;5
+CTIP;SZ;
+ROC;CTIP;

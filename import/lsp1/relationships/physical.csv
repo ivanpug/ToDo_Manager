@@ -1,0 +1,15 @@
+﻿source;target;weight
+EO;FST;5
+EO;MDI;5
+EO;SZ;5
+EO;IRO;5
+EO;DARS;5
+EO;SI-POL;5
+ROC;SB;
+SB;CTIP;
+SB;RIO;
+RIO;SB;
+EO;CTIP;
+EO;ROC;
+EO;SB;
+EO;RIO;
